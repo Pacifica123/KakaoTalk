@@ -1,0 +1,28 @@
+{
+  "name": "p2p-relay-chat",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "web": "expo start --web",
+    "doctor": "expo-doctor",
+    "prebuild": "expo prebuild",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/react": "~19.2.0",
+    "buffer": "^6.0.3",
+    "expo": "57.0.17",
+    "expo-network": "57.0.1",
+    "expo-status-bar": "~3.0.9",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-tcp-socket": "6.4.2",
+    "typescript": "~5.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0"
+  }
+}
